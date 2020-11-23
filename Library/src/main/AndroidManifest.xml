@@ -2,8 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.rsupport.library">
 
-    <activity
-        android:name=""
-        android:exported="false"
-        android:theme="@style/XiaomiTransparentTheme" />
+    <application>
+        <activity
+            android:name="com.rsupport.library.android.MiuiTransparentActivity"
+            android:exported="false"
+            android:theme="@style/XiaomiTransparentTheme" />
+    </application>
+
 </manifest>

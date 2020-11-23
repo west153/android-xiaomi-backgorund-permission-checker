@@ -76,9 +76,9 @@ class XiaomiNotificationManager(private val context: Context) {
     private fun getIdSmallIcon(): Int {
         //TODO Input icon
         return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            0
+            -1
         } else {
-            0
+            -1
         }
     }
 
